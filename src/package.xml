@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-        <members>Position__c.Standard_Position</members>
-        <members>Position__c.IT_Position</members>
-        <name>RecordType</name>
-    </types>
-    <types>
-        <members>Position__c-IT Position Layout</members>
-        <members>Position__c-Position Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Position__c.Closed_Date_not_less_than_Open_Date</members>
-        <members>Position__c.Close_Date_Rule</members>
-        <members>Position__c.Min_Not_0</members>
-        <members>Position__c.Min_Pay_Rule</members>
-        <members>Position__c.New_Status_validation</members>
-        <members>Position__c-Position Layout</members>
-        <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>Job_Application__c.Average_Rating__c</members>
-        <members>Position__c.Status__c</members>
-        <name>CustomField</name>
+        <members>Position__c.Approve_New_Position</members>
+        <name>ApprovalProcess</name>
     </types>
     <version>31.0</version>
 </Package>
