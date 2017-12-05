@@ -32,10 +32,8 @@ approved by the Position owner&apos;s manager.</description>
         <allowDelegate>true</allowDelegate>
         <assignedApprover>
             <approver>
-                <name>ccapo@accenture.com</name>
-                <type>user</type>
+                <type>adhoc</type>
             </approver>
-            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
         <description>Every new position record with a minimum
 salary over $150,000 must be approved by the CEO.</description>
